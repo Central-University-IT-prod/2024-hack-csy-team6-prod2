@@ -1,0 +1,142 @@
+bitter-uniquifier {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    font-family: Bitter;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8;
+}
+.container {
+    padding: 20px;
+}
+.header {
+    padding-top: 20px;
+    display: flex;
+}
+
+.header h1 {
+    font-size: 24px;
+    text-align: left;
+}
+
+.header h3 {
+  position: absolute;
+  right: 0;
+}
+
+.block {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.block h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.block p {
+    font-size: 14px;
+    color: #888;
+}
+.block button {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Bitter;
+}
+.my-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+.my-block {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 48%;
+    padding: 15px;
+    text-align: center;
+}
+.my-block h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.my-block p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.my-block .progress {
+    font-size: 12px;
+    color: green;
+}
+
+.solve-btn {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+.solve-btn:hover {
+    background-color: #555;
+}
+
+.solve-btn.disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.nav-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+.nav-bar a {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Bitter;
+}
+
+button:hover {
+  background-color: white;
+  color:black;
+  outline: solid black;
+  outline-width: 1px;
+  border-color: gray;
+  border-radius: 10px;
+}

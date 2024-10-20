@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задачи</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="container">
+        <div style="display: flex;">
+            <a href="#" class="back-btn" id="arrow-pon">←</a>
+            <header margin-bottom="20px">
+                <h1>Уравнения 🏀</h1>
+            </header>    
+        </div>
+
+
+        <section class="task-list">
+            <div class="task-card">
+                <div class="task-content">
+                    <h2>Линейные уравнения 1</h2>
+                      <p>Уровень: средний</p>
+                    <button id = "btn1" class="solve-btn disabled">Недоступно</button>
+                </div>
+            </div>
+
+            <div class="task-card">
+                <div class="task-content">
+                    <h2>Линейные уравнения 2</h2>
+                    <p>Уровень: средний</p>
+                    <button id = "btn2" class="solve-btn disabled">Недоступно</button>
+                </div>
+            </div>
+
+
+            <div class="task-card">
+                <div class="task-content">
+                    <h2>Квадратные уравнения 1</h2>
+                    <p>Уровень: средний</p>
+                    <button id = "solve-quadratic-1" class="solve-btn">Решить</button>
+                </div>
+            </div>
+
+            <div class="task-card">
+                <div class="task-content">
+                    <h2>Квадратные уравнения 2</h2>
+                    <p>Уровень: средний</p>
+                    <button id = "btn4" class="solve-btn disabled" disabled>Недоступно</button>
+                </div>
+            </div>
+
+            <div class="task-card">
+                <div class="task-content">
+                    <h2>Кубические уравнения 1</h2>
+                    <p>Уровень: сложный</p>
+                    <button id = "btn5" class="solve-btn disabled" disabled>Недоступно</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+    document.getElementById('solve-quadratic-1').addEventListener('click', function() {
+        window.location.href = 'task.html';
+    });
+    document.getElementById('arrow-pon').addEventListener('click', function() {
+        window.location.href = 'main_train.html'; 
+    });
+</script>
+</body>
+</html>

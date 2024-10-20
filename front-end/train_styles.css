@@ -1,0 +1,97 @@
+bitter-<uniquifier> {
+  font-family: "Bitter";
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    font-family: Bitter;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8;
+}
+
+.container {
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    font-family: Bitter;
+}
+.back-btn {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    font-family: Bitter;
+}
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+    font-family: Bitter;
+}
+.streak {
+    font-size: 14px;
+    color: #888;
+    font-family: Bitter;
+}
+.progress {
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: Bitter;
+}
+.progress p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+    font-family: Bitter;
+}
+.block {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: Bitter;
+}
+.block h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Bitter;
+}
+.checkmark {
+    font-size: 16px;
+    color: green;
+    font-family: Bitter;
+}
+.block p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    font-family: Bitter;
+}
+.action-btn {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Bitter;
+}
+.block.disabled {
+    opacity: 0.5;
+}
+.block.disabled .action-btn {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
